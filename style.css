@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #1A1A19;
+}
+
+.site_body {
+    margin: 10px;
+}
+
+header,
+main,
+footer {
+    background-color: #31511E;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.logo {
+    height: 30px;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 14px;
+    font-size: 20px;
+}
+
+.nav_items {
+    list-style-type: none;
+    color: #F6FCDF;
+}
+
+.page_name {
+    font-family: 'Samarkan', sans-serif;
+}
+
+.nav_btn {
+    font-family: "Delius Swash Caps", cursive;
+    background-color: #ffffff13;
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+
+/* main   */
+.about,
+.content_section {
+    padding: 10px;
+}
+
+.aboutheading,
+.content_container {
+    background-color: #ffffff17;
+    border-radius: 14px;
+    padding: 8px;
+    margin: 8px 0px;
+
+}
+
+.abouttext {
+    color: #F6FCDF;
+    font-family: "Delius Swash Caps", cursive;
+    font-size: 14px;
+}
+
+.catagoryHeading {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+
+}
+
+.catagoryName {
+    font-family: "Jua", sans-serif;
+    color: #F6FCDF;
+    font-size: 20px;
+}
+
+.content_title {
+    padding: 8px;
+    background-color: #ffffff14;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.title_text,
+.content_url {
+    font-family: "Jua", sans-serif;
+    color: #F6FCDF;
+    font-size: 12px;
+}
+
+.content_url {
+    display: flex;
+    justify-content: center;
+    padding: 4px 8px;
+    background-color: #ffffff1c;
+    border-radius: 10px;
+    margin: 4px 4px;
+}
+
+.content_id {
+
+    font-family: "Jua", sans-serif;
+    color: #859F3D;
+    font-size: 8px;
+    margin: 0px 10px;
+}
+
+.LinkPlacement {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav_indicator {
+    width: 28px;
+    height: 10px;
+    background-color: #ffffff1e;
+    border-radius: 10px;
+}
+
+.footerList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px;
+}
+
+.footerItems {
+    color: white;
+    margin: 4px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 10px;
+}
