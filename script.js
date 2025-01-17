@@ -1,5 +1,5 @@
 
-document.getElementById("version").innerHTML = "v 2.0.0";
+document.getElementById("version").innerHTML = "v 2.0.1";
 
 
 document.getElementById('indiCatorG').style.display = 'none';
